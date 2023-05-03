@@ -4,7 +4,7 @@ import { PieChart } from '../../pages/chart/PieChart'
 
 const Graph = () => {
   return (
-    <div>
+    <div style={{ width: "100%", height: "50"}}>
         {/* <BarChart /> */}
         <PieChart />
     </div>
