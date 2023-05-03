@@ -108,7 +108,7 @@ export const data = {
 
 export function PieChart() {
   return (
-    <div style={{ width: "100%", minHeight: "50vh" , display : "flex" , justifyContent : "center" , alignItems : "center"}}>
+    <div style={{ width: "100%", maxHeight: "90vh" , display : "flex" , justifyContent : "center" , alignItems : "center"}}>
       <Doughnut data={data} />
     </div>
   );
